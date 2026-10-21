@@ -25,4 +25,5 @@ public interface WorkoutRecordRepository extends JpaRepository<WorkoutRecord, Lo
             @Param("workoutRecordId") Long workoutRecordId
     );
 
+
 }
