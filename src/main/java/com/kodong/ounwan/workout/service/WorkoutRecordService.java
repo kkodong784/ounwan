@@ -96,7 +96,9 @@ public class WorkoutRecordService {
 
     // update
     @Transactional
-    public void updateWorkoutRecord();
+    public WorkoutRecord updateWorkoutRecord() {
+
+    }
 
     @Transactional
     public void updateWorkoutSession();
