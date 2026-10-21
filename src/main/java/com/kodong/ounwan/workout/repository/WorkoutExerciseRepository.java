@@ -29,3 +29,4 @@ public interface WorkoutExerciseRepository extends JpaRepository<WorkoutExercise
     );
 
 }
+
